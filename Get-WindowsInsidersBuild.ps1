@@ -65,7 +65,7 @@ $label1 = New-Object System.Windows.Forms.Label -Property @{
 $form.Controls.Add($label1)
 
 $label2 = New-Object System.Windows.Forms.Label -Property @{
-    Size=New-Object System.Drawing.Size(130,23)
+    Size=New-Object System.Drawing.Size(155,23)
     Location =  New-Object System.Drawing.Point(92,6)
     Text = $compinfo.PSComputerName
     Font = New-Object System.Drawing.Font("Microsoft Sans Serif",9.75,2,3,0)
@@ -77,7 +77,7 @@ $form.Controls.Add($label2)
 
 $label3 = New-Object System.Windows.Forms.Label -Property @{
     Size=New-Object System.Drawing.Size(75,23)
-    Location =  New-Object System.Drawing.Point(220,6)
+    Location =  New-Object System.Drawing.Point(250,6)
     Text = $compinfo.version
     Font = New-Object System.Drawing.Font("Microsoft Sans Serif",9.75,2,3,0)
     Name = "label3"
